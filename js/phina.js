@@ -9406,7 +9406,7 @@ phina.namespace(function() {
      *
      * @param {Object} parent 自身を子要素として追加する要素
      */
-    addChildTo: function(parent) {
+    addChildTo: function (parent) {
       parent.addChild(this);
 
       return this;
